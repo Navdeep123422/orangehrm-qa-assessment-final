@@ -1,0 +1,15 @@
+Included files:
+- README.md
+- TEST-INVENTORY.md
+- package.json, tsconfig.json, cucumber.js
+- .env.example, .gitignore
+- features/user-management.feature
+- src/pages/LoginPage.ts
+- src/pages/DashboardPage.ts
+- src/pages/AdminPage.ts
+- src/steps/userManagement.steps.ts
+- src/support/world.ts
+- src/support/hooks.ts
+- tests/test-data.ts
+- scripts/open-report.js
+- .github/workflows/automation.yml

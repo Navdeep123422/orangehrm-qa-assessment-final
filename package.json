@@ -1,0 +1,21 @@
+{
+  "name": "orangehrm-qa-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BDD UI automation assessment for OrangeHRM using Playwright, TypeScript and Cucumber",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:smoke": "cucumber-js --tags '@Smoke'",
+    "test:regression": "cucumber-js --tags '@Regression'",
+    "typecheck": "tsc --noEmit",
+    "report:open": "node scripts/open-report.js"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.15.0",
+    "multiple-cucumber-html-reporter": "^3.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
